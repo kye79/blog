@@ -1,0 +1,5 @@
+baseURL = "http://kalcor.site"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Kalcor"
+theme = "tale"

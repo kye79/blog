@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kalcor</title>
+    <link>http://kalcor.site/</link>
+    <description>Recent content on Kalcor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Aug 2018 13:54:31 +0000</lastBuildDate>
+    
+	<atom:link href="http://kalcor.site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why I blocked Youtube from the SA-MP forums</title>
+      <link>http://kalcor.site/post/why-i-blocked-youtube-from-the-samp-forums/</link>
+      <pubDate>Wed, 15 Aug 2018 13:54:31 +0000</pubDate>
+      
+      <guid>http://kalcor.site/post/why-i-blocked-youtube-from-the-samp-forums/</guid>
+      <description>About a week ago I banned You(Them)tube from the SA-MP forums. This begs the question… “Why?”
+On August 6th Infowars was banned from Youtube. Shortly after Apple, Spotify and Facebook (Being the ass sniffers they are) banned Infowars as well.
+What happened to freedom of speech? Why are these brainwashed social justice warriors so butt hurt about the truth? If I want to get my news and information from a legitimate source instead of the CNN fake news corporation.</description>
+    </item>
+    
+    <item>
+      <title>My attempt at a versioning system</title>
+      <link>http://kalcor.site/post/my-attempt-at-a-versioning-system/</link>
+      <pubDate>Tue, 14 Aug 2018 16:25:25 +0300</pubDate>
+      
+      <guid>http://kalcor.site/post/my-attempt-at-a-versioning-system/</guid>
+      <description>Introduction If you have ever heard of SA-MP (San Andreas Mutliplayer), you might be familiar with the versioning system that I have created.
+In my opinion, this versioning system is way better than Semver (Semantic Versioning) and any other versioning system out there.
+So how does it work? Versioning starts at 0.0 and should be at 0.1 once it’s usable and ready for the public.
+Major releases Every time you release a new major update, you increment the second number in the version by one.</description>
+    </item>
+    
+  </channel>
+</rss>

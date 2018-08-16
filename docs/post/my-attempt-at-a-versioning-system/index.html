@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+			
+		
+	
+		<title>
+			
+				My attempt at a versioning system &middot; Kalcor
+			
+		</title>
+	
+		
+		
+  		<link rel="stylesheet" href="/scss/tale.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="http://kalcor.siteimages/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="http://kalcor.siteimages/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="http://kalcor.siteimages/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Kalcor" />
+	</head>
+	
+
+  <body>
+		<nav class="nav">
+			<div class="nav-container">
+			<a href="http://kalcor.site/">
+				<h2 class="nav-title">Kalcor</h2>
+			</a>
+			<ul>
+				<li><a href="http://kalcor.site">Posts</a></li>
+			</ul>
+			</div>
+		</nav>
+
+<main>
+	<div class="post">
+
+		<h1 class="post-title">My attempt at a versioning system</h1>
+		<div class="post-line"></div>
+
+		
+
+<h1 id="introduction">Introduction</h1>
+
+<p>If you have ever heard of SA-MP (San Andreas Mutliplayer), you might be familiar with the versioning system that I have created.</p>
+
+<p>In my opinion, this versioning system is way better than Semver (Semantic Versioning) and any other versioning system out there.</p>
+
+<h1 id="so-how-does-it-work">So how does it work?</h1>
+
+<p>Versioning starts at <strong><em>0.0</em></strong> and should be at <strong><em>0.1</em></strong> once it’s usable and ready for the public.</p>
+
+<h2 id="major-releases">Major releases</h2>
+
+<p>Every time you release a new major update, you increment the second number in the version by one. So for example : <strong><em>0.1</em></strong> turns into <strong><em>0.2</em></strong>, <strong><em>0.2</em></strong> turns into <strong><em>0.3</em></strong> and so on…</p>
+
+<p>The first number in the version is unused and is there purely for looks. Do not change it, as it will not look good.</p>
+
+<h2 id="minor-releases">Minor releases</h2>
+
+<p>Have you written a couple of new functions or fixed one or two bugs here and there and decided to release a minor release? Well that’s just great!</p>
+
+<p>There are two ways to mark minor versions.</p>
+
+<p>The first way is to add a hyphen, followed by the character “R” and the minor release number. (Minor release numbers start from 1)
+For example, let’s say the current version is <strong><em>0.1</em></strong>. If you were to release your first minor release it would become <strong><em>0.1-R1</em></strong>. Pretty straight-forward, right!?</p>
+
+<p>The second way is to add a letter at the end of the version if it’s not present already, and increment it if it is. So <strong><em>0.1</em></strong> with a patch becomes <strong><em>0.1a</em></strong>. <strong><em>0.1a</em></strong> with another patch becomes <strong><em>0.1b</em></strong>.
+However, the English alphabet only contains 26 letters. What do I do once I reach “z”?
+Well, that’s pretty simple. Append another new letter to the end. Thus, <strong><em>0.1z</em></strong> will become <strong><em>0.1za</em></strong> and so on…</p>
+
+<p>Lets say you had issues learning the alphabet back in primary school, you can simply skip almost the entire alphabet and go from “d” to “x”. This is also perfectly valid.</p>
+
+<p>Now, which one should I choose?
+The answer is very simple, choose whatever you want. And feel free to switch between the two whenever you want, this won’t cause any confusion what so ever. If you feel like it, you can even use both at the same time (<strong><em>0.3zb-R28</em></strong>). All of this is perfectly valid. Personally, I prefer using both. As that way you can make sure that people who don’t know the alphabet will know what the current minor release is and vice versa.</p>
+
+<h2 id="release-candidates">Release candidates</h2>
+
+<p>Have you written tons of new features and fixed tons of bugs but are worried your obsessed fans that just can’t get enough of you won’t enjoy them? Well then it’s time for a Release candidate!</p>
+
+<p>Release candidates are marked by a hyphen followed by “RC” and the release candidate number.</p>
+
+<p>Release candidates come after minor releases.</p>
+
+<h2 id="branching">Branching</h2>
+
+<p>Let’s say your obsessed fans completely hate your release candidates, but you still want to keep them! You can move all the RC’s into a new branch.</p>
+
+<p>Release candidates are marked by a hyphen followed by a dot followed by whatever you want to call the branch in all caps. The branch name comes after the major release number.</p>
+
+<p>Let’s say the current version is <strong><em>0.3zb-R28-RC6</em></strong>. And you’d like to move all of the release candidates to another branch. <strong><em>0.3zb-R28-RC6</em></strong> would become <strong><em>0.3.-BNzb-R28-RC6</em></strong>. (With BN being the branch name) It is best to keep branch names at around 2-3 characters, but there is no limit.</p>
+
+<p>Any type of release is allowed to break backwards compatibility. Unlike in Semver, where you are only allowed to break backwards compatibility on major releases. This is one of the many advantages Kalver (Kalcor Versioning) has over Semver.</p>
+
+<h1 id="a-very-important-don-t">A very important DON’T</h1>
+
+<p>Do NOT go over 0.3. Getting to major release 4 brings bad luck to your project and certain death to the developers involved. If you want to keep releasing updates at that point, release minor updates.</p>
+
+<h1 id="in-conclusion">In conclusion</h1>
+
+<p>In conclusion, kalver is probably the best versioning system you’ll every come by.
+I’m right. And if you think that I’m wrong, you’re wrong.</p>
+
+
+	</div>
+
+	
+</main>
+
+	</body>
+</html>
