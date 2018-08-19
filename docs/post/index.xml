@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Kalcor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Aug 2018 13:54:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Aug 2018 19:14:31 +0000</lastBuildDate>
     
 	<atom:link href="http://kalcor.site/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Multi Theft Auto story</title>
+      <link>http://kalcor.site/post/the-multi-theft-auto-story/</link>
+      <pubDate>Sun, 19 Aug 2018 19:14:31 +0000</pubDate>
+      
+      <guid>http://kalcor.site/post/the-multi-theft-auto-story/</guid>
+      <description>Introduction The reason I&amp;rsquo;m writing this blog post is because I want to put this MTA shit to rest once and for all&amp;hellip;
+I used to be a MTA developer, but I doubt you knew that. Probably because those MTA cretins did not credit me anywhere in their project, even though I worked with them for a year and came up with the main sync method (player context switching) which is used by both mods.</description>
+    </item>
     
     <item>
       <title>Why I blocked Youtube from the SA-MP forums</title>
