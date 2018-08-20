@@ -44,3 +44,5 @@ What's worse is the abuse the MTA team has put me through.
 Sometimes I can still see the room they locked me inside of, dog cages and surgical tools all over the wall. They'd visit me every couple of hours and tickle my asshole to make sure I was still alive. Which soon followed by a visit of a man who I presumed to be the leader of the MTA gang. He touched me in ways I had never been touched before.
 
 I could sit here for hours listing the things they've done to me, from torture to rape to making me write LUA code. The MTA team has left me with multiple permanent physical and mental scars.
+
+After all of this, it's very hard for me to work on new SA-MP updates. Every time I write code I keep losing focus and all I can think about are those dark moments. I hope that kind of explains why 0.3DL took so long.
